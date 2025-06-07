@@ -1,3 +1,11 @@
 pdbs/
 .DS_Store
 .ipynb_checkpoints/
+# Ignore all .DS_Store files anywhere
+**/.DS_Store
+
+# Ignore all .ipynb_checkpoints folders and contents
+**/.ipynb_checkpoints/
+# Ignore Python bytecode cache
+__pycache__/
+**/__pycache__/
